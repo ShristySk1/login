@@ -1,0 +1,402 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto';
+}
+
+/*//background*/
+.header{
+	width:100%;
+	padding-top:500px;
+	height:100%;
+	overflow: hidden;
+	position: absolute;
+	left:50%;
+	background: linear-gradient(to right,#56CCF2,#2F80ED);
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+.login-box{
+	width: 95%;
+	height:95%;
+	overflow: hidden;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+
+}
+/*//first logo*/
+.logo-title{
+text-align: center;
+	font-size: 9vw;
+	position: relative;
+	width: 130%;
+	margin-bottom: 40px;
+	margin-left: -15%;
+}
+/*//second-logo*/
+.logo-title2{
+text-align: left;
+	position: relative;
+	width: 50%;
+	font-size: 9vw;
+	margin-bottom: 30px;
+}
+input[type=email], input[type=password] {
+  width: 100%;
+	height:10px;
+	padding: 15px 0px;
+  margin: 7px 0px;
+  display:block;
+	outline: none !important;
+	border:none;
+	font-size:12px;
+	background-color:rgb(242, 242, 242,0.0);
+	border-bottom: 0.5px solid lightgray;
+	transition: all 0.3s;
+}
+/*//sign-up for form1*/
+#sign-up{
+	background: transparent;
+
+  color: #2F80ED;
+  padding: 0.5rem 0px;
+  border:1px solid #2F80ED;
+  cursor: pointer;
+  width:30%;
+	position: absolute;
+	left:35%;
+	bottom 25%;
+	display: block;
+	border-radius: 25px;
+}
+button {
+	background: linear-gradient(to right,#56CCF2,#2F80ED);
+/*  background-color: #4CAF50;*/
+  color: white;
+  padding: 0.7rem 0px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+	position: absolute;
+	right:3%;
+	bottom: 20%;
+	float: right;
+	display: block;
+	border-radius: 25px;
+}
+/*//arrow1*/
+.text1{
+	color:#2F80ED;
+font-size: 30px;
+	position: absolute;
+	right:2%;
+	transition: all 0.8s;
+bottom:2%;
+	float: right;
+		display: block;
+}
+
+.text1:hover{
+	cursor: pointer;
+}
+.text2:hover{
+	cursor: pointer;
+}
+/*//arrow2*/
+.text2{
+color:#2F80ED;
+font-size: 30px;
+	position: absolute;
+	left:2%;
+	transition: all 0.8s;
+top:2%;
+		display: block;
+}
+.arrow-downn{
+	transform: rotateZ(180deg);
+}
+.arrow-up{
+	transform: rotateZ(0deg);
+}
+/*//both form*/
+form {
+	background-color: white;
+	border: 3px solid #f1f1f1;
+	border-radius:30px;
+	width: 100%;
+	height:88%;
+	padding-top: 30px;
+	font-size: 12px;
+}
+/*//downside-form*/
+.form-bottom{
+
+		width: 100%;
+	height:100%;
+		transition:  all 0.8s ease-in-out;
+		backface-visibility:hidden;
+	position: relative;
+	margin-top: -15px;
+}
+/*//form up*/
+.form-top{
+
+	position: relative;
+	width: 100%;
+	height:89%;
+		transition:  all 0.8s ease-in-out;
+	backface-visibility:hidden;
+}
+.form1-shadow{
+	height: 100%;
+	 filter: drop-shadow(0px 6px 3px rgba(50, 50, 0, 0.2));
+}
+.form2-shadow{
+	height: 100%;
+	 filter: drop-shadow(1px -5px 5px rgba(50, 50, 0, 0.1));
+}
+#form1{
+	z-index: 99;
+	height: 100%;
+	backface-visibility:hidden;
+	z-index:1;
+			clip-path:polygon(0% 0%,100% 0%,100% 100%,98% 100%,94% 100%,91% 100%,9% 75%,3% 72.5%,1% 71.5%,0% 70%);
+	
+	
+}
+#form2{
+/*	margin-top: -19px;*/
+	z-index:-1;
+	clip-path: polygon(0 0,10% 0,92% 25%,93% 25.5%,96% 27%,97% 28%,98% 29%,99% 31%,100% 34% ,100% 35%, 100% 100%, 0% 100%);
+}
+/*//rememberme*/
+.remember-me{
+	  float: left;
+	display: block;
+	color: gray;
+	text-decoration-line: underline;
+	position: absolute;
+	bottom: 33vh;
+	left:10%;
+}
+/*//forgot-password*/
+span.psw {
+  float: left;
+	display: block;
+	color: gray;
+	text-decoration-line: underline;
+/*	font-size:14px;*/
+	position: absolute;
+	bottom: 33vh;
+	right:10%;
+}
+.name-container{
+	position: relative;
+	line-height: 0.9;
+	margin-bottom: 20px;
+}
+.confirmpassword-container{
+	position: relative;
+	line-height: 0.9;
+	
+/*	margin-bottom: 20px;*/
+}
+.email-container{
+	position: relative;
+	line-height: 0.9;
+	margin-bottom: 20px;
+}
+.password-container{
+	position: relative;
+		line-height: 0.91;
+}
+label{
+padding-top: 4px;}
+button:hover {
+  opacity: 0.8;
+}
+.container {
+	padding-left: 16px;
+	padding-right: 16px;
+	color: gray;
+	
+}
+
+/*//form2-top part*/
+.top-container2{
+	position: absolute;
+bottom: 35%;
+	width: 80%;
+	left: 10%;
+}
+/*//form1 top-part*/
+.top-container{
+	position: absolute;
+bottom: 44%;
+	width: 80%;
+	left: 10%;
+}
+
+/*//google and facebook*/
+.middle-icons{
+
+	text-align: center;
+	display: inline-block;
+	margin-top: -15vw;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+	position: absolute;
+	z-index: -4;
+}
+.google{
+	color:white;
+	position: relative;
+	top:0vh;
+	opacity: 0.9;
+	border: 5px solid crimson;
+	background-color: crimson;
+	border-radius: 50%;
+		margin-right:5%;
+		width: 2.5rem;
+	transition:all 0.8s;
+	line-height: 120%;
+	font-size: 25px;
+}
+.facebook{
+		transition:all 0.8s;
+	position:relative;
+	top:6vh;
+	font-size:4vw;
+	color:white;
+	width: 2.5rem;
+	font-size: 20px;
+	margin-left:5%;
+	border: 10px solid midnightblue;
+	background-color: midnightblue;
+/*	line-height: 120%;*/
+	opacity: 0.9;
+		border-radius: 50%;
+}
+
+
+input[type=email]:focus,input[type=password]:focus{
+    outline: none !important;
+	box-shadow: none;
+transform: scale(1.1);
+}
+/*//ipad-pro*/
+@media (min-width: 768px){
+	.top-container{
+		font-size: 25px;
+	}
+	.top-container2{
+		font-size: 25px;
+		bottom: 30%;
+	}
+
+	.form-bottom{
+		margin-top: -45px;
+	}
+	
+	.arrow-up,.arrow-down{
+		font-size: 45px;
+	}
+	input[type=email],input[type=password]{
+		font-size: 25px;
+		padding: 40px 0px;
+	}
+	.remember-me,.psw{
+		font-size: 25px;
+	}
+	label{
+		padding-top: 0px;
+	}
+	button{
+		font-size: 25px;
+	}
+	.google{
+		width: 95px;
+		font-size: 65px;
+		top:30px;
+	}
+	.facebook{
+		top:120px;
+		width: 87px;
+			font-size: 65px;
+		line-height: 67px;
+	}
+	
+	.logo-title2{
+		margin-bottom: 80px;
+	}
+	#form2{
+	clip-path: polygon(0 0,5% 0,92% 25%,93% 25.5%,96% 27%,97% 28%,98% 29%,99% 31%,100% 34% ,100% 35%, 100% 100%, 0% 100%);
+	}
+	#form1{
+clip-path:polygon(0% 0%,100% 0%,100% 100%,98% 100%,94% 100%,9% 75%,3% 72.5%,1% 71.5%,0% 70%);
+	
+	}
+	
+}
+/*ipad*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 992px){
+	.google{
+		width:79px;
+		font-size: 55px;
+	}
+	.facebook{
+				width:79px;
+		font-size: 5vw;
+		line-height: 55px;
+top:7vh;
+	}
+	.form-top{
+		height:92%;
+	}
+	.form-bottom{
+		margin-top: -42px;
+	}
+	#form2{
+clip-path: polygon(0 0,7% 0,92% 25%,93% 25.5%,96% 27%,97% 28%,98% 29%,99% 31%,100% 34% ,100% 35%, 100% 100%, 0% 100%);
+	}
+	#form1{
+clip-path:polygon(0% 0%,100% 0%,100% 100%,98% 100%,94% 100%,9% 75%,3% 72.5%,1% 71.5%,0% 70%);
+	
+	}
+	input[type=email], input[type=password] {
+padding: 30px 5px;
+	}
+	.arrow-up{
+		font-size: 3rem;
+	}
+	.arrow-downn{
+	font-size: 3rem;
+	
+	}
+		}
+/*iphone 5*/
+@media screen and (device-aspect-ratio: 40/71) {
+	.top-container{
+
+bottom: 44%;
+	
+}
+
+	.logo-title2{
+		margin-bottom:22px;
+	}
+	.arrow-up,.arrow-down{
+		font-size: 25px;
+	}
+	
+}
+
+
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>index2</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/fontawesome.min.css">
+	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="login2.css" rel="stylesheet">
+	<script src="script.js"></script>
+	</head>
+	<body>
+		<header class="header">
+	<div class="login-box">
+		<div class="form-top">
+			<span class="circle1"></span>
+			
+	<div class="form1-shadow">	
+		<span class="circle2"></span>
+	<form id="form1" action="/action_page.php" method="post">	
+  <div class="container">
+	  <div class="top-container">
+		  
+	  <img class="logo-title" src="logo2.png"/>
+<div class="email-container">
+    <div class="form-group">
+<!--      <label for="email">Email:</label>-->
+	
+		 <input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
+<!--		<div id="placeholder-email">Email</div>-->
+		   <i class="fas fa-envelope" style="position: absolute;left: 95%;bottom: 1vh;"></i>
+    </div>
+		
+	  </div>
+	  <div class="password-container">
+    <div class="form-group">
+<!--      <label for="pwd">Password:</label>-->
+      <input type="password" class="form-control" id="pwd" placeholder="Password" name="pswd" required>
+    </div>
+		  <i class="fas fa-key" style="float: right;position: absolute;left: 95%;bottom: 1vh;"></i>
+ 
+		 </div></div>
+   <div class="container">
+<!--
+	   <div class="remember-me">
+		   <input type="checkbox" checked="checked" name="remember" class="check-box"> Remember me</div>
+-->
+	   <div class="remember-me">
+<div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+      <label class="custom-control-label" for="customCheck">Remember me</label>
+		   </div></div>
+    <span class="psw">Forgot password?</span>
+  </div> 
+	  <div style="clear: both;"></div>
+
+<div class="bottom-icons">
+   <button id="sign-up">Sign Up</button>
+	 <div style="clear: both;">	 </div>
+    <button type="submit" class="login">Login</button>
+	 <div style="clear: both;">
+	</div>
+
+		<i class="fas fa-chevron-circle-up text1 arrow-up" id="a-up"></i>
+
+	  	 <div style="clear: both;"></div>
+
+  </div>
+ <div style="clear: both;"></div>
+		</div>
+				</form>
+			</div>
+			
+
+		<div class="middle-icons">
+		<i class="fab fa-google-plus-g google"></i><i class="fab fa-facebook-f facebook"></i>
+			</div>
+		</div>
+		
+			<div class="form-bottom">
+		<div class="form2-shadow">
+<!--						<span class="rectangle1"></span>-->
+<!--				<span class="rectangle2"></span>-->
+		<form id="form2" action="/action_page.php" method="post">
+		
+			 <div class="container">
+				 <i class="fas fa-chevron-circle-up text2 arrow-up" id="a-down"></i>
+	  	 <div style="clear: both;"></div>
+	  <div class="top-container2">
+	  <img class="logo-title2" src="logo3.png"/>
+		  <div class="name-container">
+     <div class="form-group">
+    
+      <input type="email" class="form-control" placeholder="Enter name" name="name" required style="bottom:1vh;">
+		    <i class="fas fa-user" style="float: right;position: absolute;left: 90%;bottom: 1vh;"></i>
+    </div>		
+	  </div>
+<div class="email-container">
+     <div class="form-group">
+    
+      <input type="email" class="form-control" placeholder="Enter email" name="email" required>
+    </div>		
+<i class="fas fa-envelope" style="float: right;position: absolute;left: 90%;bottom: 1vh;"></i>
+	  </div>
+	  <div class="password-container">
+      <div class="form-group">
+
+      <input type="password" class="form-control"placeholder="Enter password" name="pswd" required>
+		
+    </div>
+		  <i class="fas fa-key" style="float: right;position: absolute;left: 90%;bottom: 1vh;"></i>
+		 </div>
+				   <div class="confirmpassword-container">
+      <div class="form-group">
+
+      <input type="password" class="form-control"placeholder="Confirm Password" name="pswd" required>
+    </div>
+		  <i class="fas fa-key" style="float: right;position: absolute;left: 90%;bottom: 1vh;"></i>
+		 </div></div>
+       <div class="container" style="">
+  
+<!--    <span class="psw2">Forgot password?</span>-->
+
+	  <div style="clear: both;"></div>
+
+<div class="bottom-icons">
+ 
+    <button type="submit">Sign Up</button>
+	 <div style="clear: both;">	 </div>
+		  </div> 
+
+  </div>
+ <div style="clear: both;"></div>
+		</div>
+			
+
+</form>
+				</div></div>
+			</div>
+		</header>
+	
+	</body>
+</html>
